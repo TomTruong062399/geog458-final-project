@@ -13,7 +13,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.
 // 3. Add restaurant GeoJSON data.
 var restaurants = null;
 
-// 4. Build up a set of colors from ColorBrewer's Paired category
+// 4. Build up a set of colors from ColorBrewer's Paired category.
 var colors = chroma.scale('Paired').mode('lch').colors(10);
 
 // 5. Dynamically append style classes to this page. This style classes will be used for colorize the markers.
@@ -61,7 +61,7 @@ restaurants = L.geoJson.ajax("assets/Restaurants_Operating_during.geojson", {
   attribution: 'Restaurants Data: City of Seattle | Base Map: CartoDB | Made By: Tom Truong'
 }).addTo(mymap);
 
-// 6. Create Leaflet Control Object fo legend.
+// 6. Create Leaflet Control Object of legend.
 var legend = L.control({
   position: 'topright'
 });

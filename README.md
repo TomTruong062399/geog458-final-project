@@ -1,8 +1,8 @@
 # Reopening Businesses in the U-District
 
 ![Screenshot of Web Map](img/WebMap.png)
-_Screenshot of Web Map showing each restaurant in the U-District_
-[LINK](https://github.com/TomTruong062399/geog458-final-project.index.html)
+_Screenshot of Web Map showing each restaurant in the U-District_\
+[LINK](https://tomtruong062399.github.io/geog458-final-project/)
 
 * * *
 
